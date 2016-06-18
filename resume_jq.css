@@ -1,0 +1,63 @@
+/* 
+better colours:
+https://color.adobe.com/library/47c242b0-f536-11e4-9ee9-5752e5f54ab8/theme/863bfdc7-b9ed-4827-b817-11a07e397f64/
+*/
+div {
+    height:100px;
+    width:100px;
+    display: inline-block;
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+#green {
+    background-color:#008800;
+}
+
+div {
+height: 50px;
+width: 120px;
+border-color: #6495ED;
+background-color: #BCD2EE;
+border-style:dashed;
+border-width: 2px;
+border-radius: 5px;
+margin: auto;
+text-align:center;
+}
+a {
+    text-decoration:none;
+    color: blue'
+    font-family: garamond;
+}
+
+div.circle {
+	display: inline-block;
+	margin-left: 5px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: black 2px solid;
+}
+
+.friend {
+    border: 2px dashed #008000;
+}
+
+.family {
+    border: 2px dashed #0000FF;
+}
+
+.enemy {
+   border: 2px dashed #FF0000;
+}
