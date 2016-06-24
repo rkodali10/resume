@@ -2,87 +2,118 @@
 better colours:
 https://color.adobe.com/library/47c242b0-f536-11e4-9ee9-5752e5f54ab8/theme/863bfdc7-b9ed-4827-b817-11a07e397f64/
 */
-div {
-    height:100px;
-    width:100px;
-    display: inline-block;
+
+#career_objectives_link {
+	background: #6495ED;
+	color: white;
+}
+#key_skills_link { 
+	background-color: #4CAF50;
+}
+#qualifications_link {
+	background-color: #008CBA;
+}
+#employment_history_link {
+	background-color: #f44336;
+}
+#professional_associations_link {
+	background-color: #e7e7e7; color: black;
+}
+#referees_link {
+	background-color: #555555;
 }
 
-#red {
-    background-color:#FF0000;
+nav {
+	margin-top: 10px;
 }
 
-#blue {
-    background-color:#0000FF;
-}
-
-#yellow {
-    background-color:#E2BE22;
-}
-
-#green {
-    background-color:#008800;
-}
-
-div {
-height: 50px;
-width: 120px;
-border-color: #6495ED;
-background-color: #BCD2EE;
-border-style:dashed;
-border-width: 2px;
-border-radius: 5px;
-margin: auto;
-text-align:center;
-}
-a {
-    text-decoration:none;
-    color: blue'
-    font-family: garamond;
-}
-
-div.circle {
+div.item {
+	height: 60px;
+	width: 140px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	text-align:center;
 	display: inline-block;
+	margin: 1px;
+	padding: 5px;
+	background: #6495ED;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+body {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	padding: 5px;
+}
+
+header, nav, div, footer {
+	border-radius: 5px;
+}
+
+header {
+	z-index: 1;
+	width: 100%;
+	height: 84px; 
+	background-color: #668284;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#name {
 	margin-left: 5px;
-	height: 100px;
-	width: 100px;
-	border-radius: 100%;
-	border: black 2px solid;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-left: 10px;
+	float:left;
+	font-size: 64px;
+	font-family: 'Bookman Old Style','Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px black;
 }
 
-.friend {
-    border: 2px dashed #008000;
+#web_site{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	color: #ffffff;
 }
 
-.family {
-    border: 2px dashed #0000FF;
+footer {
+	position: relative;
+	height: 60px; 
+	background-color: #668284;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
 }
 
-.enemy {
-   border: 2px dashed #FF0000;
+footer p {
+	position: relative;
+	padding-top: 15px;
 }
 
-.slide {
-	margin:0;
-	padding:0;
-	border-top:solid 2px #cc0000;
+table, tr {
+	width: 100%;
 }
-.pull-me {
-	display:block;
-    position:relative;
-    right:-25px;
-    width:150px;
-    height:20px;
-	font-family:arial,sans-serif;
-    font-size:14px;
-	color:#ffffff;
-    background:#cc0000;
-	text-decoration:none;
-    -moz-border-bottom-left-radius:5px;
-    -moz-border-bottom-right-radius:5px;
-    border-bottom-left-radius:5px;
-    border-bottom-right-radius:5px;
+
+table th:first-child {
+	font-weight:normal;
 }
-.pull-me p {
-    text-align:center;
+
+table th:nth-child(2) {
+	width:93%;
+}
+
+th, td {
+	text-align:left;
+}
+
+table {
+	margin-bottom: 5px;
 }

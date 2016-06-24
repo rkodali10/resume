@@ -6,60 +6,147 @@
         <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
         <script type="text/javascript" src="resume_jq.js"></script>
     </head>
-    <body>
-        <header>
-        
-        </header>
-        
-            <navbar>
-                <div id="red"></div>
-                <div id="blue"></div>
-                <div id="yellow"></div>
-                <div id="green"></div>
-            </navbar>
-        
-            <main>
-        
-				
-				<div>
-					<a href="something">something</a>
+	<body onload="writeEmail()">
+		<header>
+			<p id="name">Paul Robotham</p>
+			<a href=http://paulrobotham.com/"><p id="web_site">PaulRobotham.com</p></a>
+		</header>
+		
+		<div class="container">
+			<nav>
+				<div id="menu">
+					<div id="career_objectives_link" class="item">Career Objectives<br/></div>
+					<div id="key_skills_link" class="item">Key Skills<br/><br/></div>
+					<div id="qualifications_link" class="item">Qualifications<br/><br/></div>
+					<div id="employment_history_link" class="item">Employment History</div>
+					<div id="professional_associations_link" class="item">Professional Associations</div>
+					<div id="referees_link" class="item">Referees<br/><br/></div>
 				</div>
-            </main>
-        
-        <div id="about"></div>
+			</nav>
+			<main>
+				<section id="contact">
+					<p><a id="emailHref"><span id="emailText"></span></a> | <a href="http://www.linkedin.com/in/paul-robotham-383576110">LinkedIn</a> | <a href="https://github.com/paulm29">GitHub</a> | <a href="http://stackoverflow.com/users/559658/paul-robotham">StackOverflow</a> | <a href="https://www.youtube.com/user/paulofaus">YouTube</a></p>
+				</section>
+				<section id="career_objectives">
+					<h2>Career Objectives</h2>
+					<ul>
+						<li>Provide innovative Information Technology (IT) solutions in order to solve business problems and open up new opportunities for efficiency</li>
+						<li>Work collaboratively to analyse processes and systems, resolve problems, communicate and exploit the benefits of IT</li>
+					</ul>
+				</section>
+				<section id="key_skills">
+					<h2>Key skills</h2>
+					<ul>
+						<li>Front end: HTML, CSS, JavaScript, jQuery, Angular, Bootstrap</li>
+						<li>Back end: Spring MVC, Serlets, JSP, SOAP, REST, JPA</li>
+						<li>Database/Servers: Tomcat, Glassfish, MySQL, DB2</li>
+					</ul>
+				</section>
+				<section id="qualifications">
+					<h2>Qualifications</h2>
+<table>
+<tr><th>2014</th><th>Certificate IV in Training and Assessment</th></tr>
+<tr><td></td><td>Southbank Institute of Technology, Brisbane</td></tr>
+</table>
 
-                <p class="slide"><div class="pull-me">Slide Up/Down</div></p>
-    
-        <footer>
-        
-        </footer>
-    </body>
-</html>
+<table>
+<tr><th>2013</th><th>Graduate Diploma of Education (Secondary)</th></tr>
+<tr><td></td><td>Griffith University, Brisbane</td></tr>
+<tr><td></td><td>GPA: 6.67 (scale 1-7, 7 highest)<br/>Griffith Award for Academic Excellence</td></tr>
+</table>
 
-<!DOCTYPE html>
-<html>
-    <head>
-		<title></title>
-        <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
-        <script type='text/javascript' src='script.js'></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	</head>
-	<body>
-        <div id="menu">
-            <h3>Section 1</h3>
-            <div>
-                <p>I'm the first section!</p>
-            </div>
-            <!--Add two more sections below!-->
-            <h3>Section 2</h3>
-            <div>
-                <p>I'm the second section!</p>
-            </div>
-            <h3>Section 3</h3>
-            <div>
-                <p>I'm the third section!</p>
-            </div>
-            
-        </div>
+<table>
+<tr><th>2004-2006</th><th>Bachelor of Information Technology (Software Engineering)</th></tr>
+<tr><td></td><td>Queensland University of Technology, Brisbane</td></tr>
+<tr><td></td><td>GPA: 5.875</td></tr>
+</table>
+
+				</section>
+				<section id="employment_history">
+					<h2>Employment History</h2>
+<table>
+<tr><th>2014-2016</th><th>IT Teacher</th></tr>
+<tr><td></td><td>Ipswich Grammar School, Ipswich</td></tr>
+<tr><td></td><td>Teaching students about information technology processes, technology and systems</td></tr>
+<tr><td></td><td>Achievements:</td></tr>
+<tr><td></td><td><ul>
+					<li>Modernising program for academic success and engagement</li>
+					<li>Significant improvement in results for senior cohorts</li>
+					<li>Implementation of Digital Technologies curriculum</li>
+				</ul>
+	</td></tr>
+</table>
+
+<table>
+<tr><th>2012-2013</th><th>Senior Java Developer</th></tr>
+<tr><td></td><td>Ezidebit, Brisbane</td></tr>
+<tr><td></td><td>Technical leadership and programming of payments web application using HTML, CSS, JavaScript and Java</td></tr>
+<tr><td></td><td>Achievements:</td></tr>
+<tr><td></td><td><ul>
+					<li>First successful release of new platform</li>
+					<li>Training of staff in technical processes</li>
+					<li>Timely assessment and resolutions of Jira issues</li>
+				</ul>
+	</td></tr>
+</table>
+
+<table>
+<tr><th>2010-2012</th><th>Technical Analyst / Programmer</th></tr>
+<tr><td></td><td>Digitisation - Department of Human Services (DHS), Brisbane</td></tr>
+<tr><td></td><td>Apply innovative digitisation technology in order to obtain efficiencies from business processes</td></tr>
+<tr><td></td><td>Achievements:</td></tr>
+<tr><td></td><td><ul>
+					<li>Enhanced digitisation processes, eliminating time/cost associated with moving and storing paper documents</li>
+					<li>Built Validation Statistics Portal (Java EE) that improved management of staff whom process digital images</li>
+					<li>Applications (C#, Java EE) to automate document capture, preview and processing</li>
+				</ul>
+	</td></tr>
+</table>
+
+<table>
+<tr><th>2009-2010</th><th>Test Manager</th></tr>
+<tr><td></td><td>Enterprise Data Warehouse - DHS, Brisbane</td></tr>
+<tr><td></td><td>Provided testing services to ensure the quality of DHS's Management Information database (Teradata)</td></tr>
+<tr><td></td><td>Achievements:</td></tr>
+<tr><td></td><td><ul>
+					<li>Leadership resulting in more business and stakeholder confidence/li>
+					<li>Test strategies that mitigated risks based on requirements</li>
+					<li>Implemented Test Process and Automation improvements that significantly increased efficiency</li>
+				</ul>
+	</td></tr>
+</table>
+
+<table>
+<tr><th>2008-2009</th><th>Technical Lead Tester</th></tr>
+<tr><td></td><td>Enterprise Data Warehouse - DHS, Brisbane</td></tr>
+<tr><td></td><td>Lead manual and automated testing of MI database solution</td></tr>
+</table>
+
+<table>
+<tr><th>2006-2008</th><th>Technical Programmer / Database Designer</th></tr>
+<tr><td></td><td>Database Design - DHS, Canberra</td></tr>
+<tr><td></td><td>Database design and administration services that enhanced data accuracy, timeliness and access; monitoring and on-call support</td></tr>
+</table>
+				</section>
+				<section id="professional_associations">
+					<h2>Professional Associations</h2>
+					<ul>
+						<li><a href="https://www.qsite.edu.au/">Queensland Society for Information Technology in Education</a></li>
+						<li><a href="http://www.iste.org/">International Society for Technology in Education</a></li>
+						<li><a href="http://acce.edu.au/">Australian Council for Computers in Education</a></li>
+						<li><a href="http://www.csteachers.org/">Computer Science Teachers Association</a></li>
+					</ul>
+				</section>
+				<section id="referees">
+					<h2>Referees</h2>
+					<p>Available upon request.</p>
+				</section>
+			</main>
+		</div>
+		<footer>
+			<a href="http://paulrobotham.com/"><p id="web_site">PaulRobotham.com</p></a></p>
+		</footer>
 	</body>
+	
 </html>
+
