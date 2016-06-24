@@ -1,0 +1,147 @@
+/*
+* {
+	margin: 0;
+	padding: 0;
+}
+*/
+
+body {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	padding: 5px;
+}
+
+header, nav, div, footer {
+	border-radius: 5px;
+}
+
+header {
+	z-index: 1;
+	width: 100%;
+	height: 84px; 
+	background-color: #668284;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#name {
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-left: 10px;
+	float:left;
+	font-size: 64px;
+	font-family: 'Bookman Old Style','Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px black;
+}
+
+#web_site{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+section {
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+.container {
+	margin-bottom: 5px;
+	height: 2000px;
+}
+
+#myCanvas {
+	width:10px;
+	height:1850px;
+}
+
+nav {
+	position: absolute;
+	float: left;
+	width: 12%;
+	height: 2000px;
+	/* background-color: #B9D7D9; */
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	text-align: right;
+background: -moz-linear-gradient(45deg, #D9FCFF 0%, #B9D7D9 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #D9FCFF), color-stop(100%, #B9D7D9)); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, #D9FCFF 0%, #B9D7D9 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, #D9FCFF 0%, #B9D7D9 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, #D9FCFF 0%, #B9D7D9 100%); /* ie10+ */
+background: linear-gradient(45deg, #D9FCFF 0%, #B9D7D9 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B9D7D9', endColorstr='#D9FCFF',GradientType=1 ); /* ie6-9 */
+}
+
+.main {
+	position: relative;
+	float: right;
+	width: 87.5%;
+	height: 100%;
+	background-color: #F4EBC3;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 5px;
+	margin-left: 0;
+	padding: 0; /* T,R,B,L */
+	padding-left: 0px;
+}
+
+footer {
+	position: relative;
+	height: 60px; 
+	background-color: #668284;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+footer p {
+	position: relative;
+	padding-top: 15px;
+}
+
+table, tr {
+	width: 100%;
+}
+
+table th:first-child {
+	font-weight:normal;
+}
+
+table th:nth-child(2) {
+	width:93%;
+}
+
+th, td {
+	text-align:left;
+}
+
+table {
+	margin-bottom: 5px;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#menu {
+	padding: 5px;
+	text-align: left;
+}
+
+#menu.fixed {
+    position: fixed;
+    z-index: 99;
+    width: 12%;
+}

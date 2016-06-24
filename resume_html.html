@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Resume of Paul Robotham</title>
+		<link type="text/css" rel="stylesheet" href="resume_html.css"/>
+		<link rel="icon" href="http://example.com/favicon.png" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript">
+			function writeEmail() {
+				var m = 'paul';  
+				m += '.';			
+				m += 'robotham';  
+				m += '@';
+				m += 'gmail';  
+				m += '.com';
+				document.getElementById('emailHref').href = "mailto:" + m;
+				document.getElementById('emailText').innerHTML = m;
+			}
+			
+			//STICKY NAV
+			$(document).ready(function () {  
+			  var top = $('#menu').offset().top - parseFloat($('#menu').css('marginTop').replace(/auto/, 100));
+			  $(window).scroll(function (event) {
+				// what the y position of the scroll is
+				var y = $(this).scrollTop();
+
+				// whether that's below the form
+				if (y >= top) {
+				  // if so, ad the fixed class
+				  $('#menu').addClass('fixed');
+				} else {
+				  // otherwise remove it
+				  $('#menu').removeClass('fixed');
+				}
+			  });
+			});
+		</script>
+	</head>
+	<body onload="writeEmail()">
+		<header>
+			<p id="name">Paul Robotham</p>
+			<a href=http://paulrobotham.com/"><p id="web_site">PaulRobotham.com</p></a>
+		</header>
+		<div class="container">
+			<nav>
+				<div id="menu">
+					<a href="#career_objectives">Career Objectives</a><br/>
+					<a href="#key_skills">Key Skills</a></br>
+					<a href="#qualifications">Qualifications</a></br>
+					<a href="#employment_history">Employment History</a><br/>
+					<a href="#professional_associations">Professional Associations</a><br/>
+					<a href="#referees">Referees</a><br>
+					<br/>
+				</div>
+			    <canvas id="myCanvas"></canvas>
+				<script>
+				  var canvas = document.getElementById('myCanvas');
+				  var context = canvas.getContext('2d');
+				  context.rect(0, 0, canvas.width, canvas.height);
+
+				  // create radial gradient
+				  var grd = context.createLinearGradient(238, 50, 10, 238, 50, 300);
+				  // light blue
+				  grd.addColorStop(0, '#8ED6FF');
+				  // dark blue
+				  grd.addColorStop(1, '#004CB3');
+
+				  context.fillStyle = grd;
+				  context.fill();
+				</script>
+			</nav>
+			<div class="main">
+				<section>
+					<p><a id="emailHref"><span id="emailText"></span></a> | <a href="http://www.linkedin.com/in/paul-robotham-383576110">LinkedIn</a> | <a href="https://github.com/paulm29">GitHub</a> | <a href="http://stackoverflow.com/users/559658/paul-robotham">StackOverflow</a> | <a href="https://www.youtube.com/user/paulofaus">YouTube</a></p>
+				</section>
+				<section id="career_objectives">
+					<h2>Career Objectives</h2>
+					<ul>
+						<li>Provide innovative Information Technology (IT) solutions in order to solve business problems and open up new opportunities for efficiency</li>
+						<li>Work collaboratively to analyse processes and systems, resolve problems, communicate and exploit the benefits of IT</li>
+					</ul>
+				</section>
+				<section id="key_skills">
+					<h2>Key skills</h2>
+					<ul>
+						<li>Front end: HTML, CSS, JavaScript, jQuery, Angular, Bootstrap</li>
+						<li>Back end: Spring MVC, Serlets, JSP, SOAP, REST, JPA</li>
+						<li>Database/Servers: Tomcat, Glassfish, MySQL, DB2</li>
+					</ul>
+				</section>
+				<section id="qualifications">
+					<h2>Qualifications</h2>
+<table>
+<tr><th>2014</th><th>Certificate IV in Training and Assessment</th></tr>
+<tr><td></td><td>Southbank Institute of Technology, Brisbane</td></tr>
+</table>
+
+<table>
+<tr><th>2013</th><th>Graduate Diploma of Education (Secondary)</th></tr>
+<tr><td></td><td>Griffith University, Brisbane</td></tr>
+<tr><td></td><td>GPA: 6.67 (scale 1-7, 7 highest)<br/>Griffith Award for Academic Excellence</td></tr>
+</table>
+
+<table>
+<tr><th>2004-2006</th><th>Bachelor of Information Technology (Software Engineering)</th></tr>
+<tr><td></td><td>Queensland University of Technology, Brisbane</td></tr>
+<tr><td></td><td>GPA: 5.875</td></tr>
+</table>
+
+				</section>
+				<section id="employment_history">
+					<h2>Employment History</h2>
+<table>
+<tr><th>2014-2016</th><th>IT Teacher</th></tr>
+<tr><td></td><td>Ipswich Grammar School, Ipswich</td></tr>
+<tr><td></td><td>Teaching students about information technology processes, technology and systems</td></tr>
+<tr><td></td><td>Achievements:</td></tr>
+<tr><td></td><td><ul>
+					<li>Modernising program for academic success and engagement</li>
+					<li>Significant improvement in results for senior cohorts</li>
+					<li>Implementation of Digital Technologies curriculum</li>
+				</ul>
+	</td></tr>
+</table>
+
+<table>
+<tr><th>2012-2013</th><th>Senior Java Developer</th></tr>
+<tr><td></td><td>Ezidebit, Brisbane</td></tr>
+<tr><td></td><td>Technical leadership and programming of payments web application using HTML, CSS, JavaScript and Java</td></tr>
+<tr><td></td><td>Achievements:</td></tr>
+<tr><td></td><td><ul>
+					<li>First successful release of new platform</li>
+					<li>Training of staff in technical processes</li>
+					<li>Timely assessment and resolutions of Jira issues</li>
+				</ul>
+	</td></tr>
+</table>
+
+<table>
+<tr><th>2010-2012</th><th>Technical Analyst / Programmer</th></tr>
+<tr><td></td><td>Digitisation - Department of Human Services (DHS), Brisbane</td></tr>
+<tr><td></td><td>Apply innovative digitisation technology in order to obtain efficiencies from business processes</td></tr>
+<tr><td></td><td>Achievements:</td></tr>
+<tr><td></td><td><ul>
+					<li>Enhanced digitisation processes, eliminating time/cost associated with moving and storing paper documents</li>
+					<li>Built Validation Statistics Portal (Java EE) that improved management of staff whom process digital images</li>
+					<li>Applications (C#, Java EE) to automate document capture, preview and processing</li>
+				</ul>
+	</td></tr>
+</table>
+
+<table>
+<tr><th>2009-2010</th><th>Test Manager</th></tr>
+<tr><td></td><td>Enterprise Data Warehouse - DHS, Brisbane</td></tr>
+<tr><td></td><td>Provided testing services to ensure the quality of DHS's Management Information database (Teradata)</td></tr>
+<tr><td></td><td>Achievements:</td></tr>
+<tr><td></td><td><ul>
+					<li>Leadership resulting in more business and stakeholder confidence/li>
+					<li>Test strategies that mitigated risks based on requirements</li>
+					<li>Implemented Test Process and Automation improvements that significantly increased efficiency</li>
+				</ul>
+	</td></tr>
+</table>
+
+<table>
+<tr><th>2008-2009</th><th>Technical Lead Tester</th></tr>
+<tr><td></td><td>Enterprise Data Warehouse - DHS, Brisbane</td></tr>
+<tr><td></td><td>Lead manual and automated testing of MI database solution</td></tr>
+</table>
+
+<table>
+<tr><th>2006-2008</th><th>Technical Programmer / Database Designer</th></tr>
+<tr><td></td><td>Database Design - DHS, Canberra</td></tr>
+<tr><td></td><td>Database design and administration services that enhanced data accuracy, timeliness and access; monitoring and on-call support</td></tr>
+</table>
+				</section>
+				<section id="professional_associations">
+					<h2>Professional Associations</h2>
+					<ul>
+						<li><a href="https://www.qsite.edu.au/">Queensland Society for Information Technology in Education</a></li>
+						<li><a href="http://www.iste.org/">International Society for Technology in Education</a></li>
+						<li><a href="http://acce.edu.au/">Australian Council for Computers in Education</a></li>
+						<li><a href="http://www.csteachers.org/">Computer Science Teachers Association</a></li>
+					</ul>
+				</section>
+				<section id="referees">
+					<h2>Referees</h2>
+					<p>Available upon request.</p>
+				</section>
+			</div>
+		</div>
+		<footer>
+			<a href="http://paulrobotham.com/"><p id="web_site">PaulRobotham.com</p></a></p>
+		</footer>
+	</body>
+</html>
