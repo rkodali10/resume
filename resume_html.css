@@ -81,7 +81,7 @@ background: linear-gradient(45deg, #D9FCFF 0%, #B9D7D9 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B9D7D9', endColorstr='#D9FCFF',GradientType=1 ); /* ie6-9 */
 }
 
-.main {
+main {
 	position: relative;
 	float: right;
 	width: 87.5%;
