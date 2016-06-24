@@ -21,4 +21,13 @@ $(document).ready(function() {
     $('.link').click(function() {
         $('.vanish').fadeOut('slow');
     });
+    
+    $('.pull-me').click(function() {
+        $('.panel').slideToggle('slow');
+    });
+
+});
+
+$(document).ready(function() {
+   $('#menu').accordion();
 });
