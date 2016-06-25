@@ -1,0 +1,132 @@
+/* 
+better colours:
+https://color.adobe.com/library/47c242b0-f536-11e4-9ee9-5752e5f54ab8/theme/863bfdc7-b9ed-4827-b817-11a07e397f64/
+*/
+
+main {
+	margin: 10px;
+}
+
+#career_objectives_link {
+	background: #6495ED;
+	color: white;
+}
+#key_skills_link { 
+	background-color: #4CAF50;
+	color: white;
+}
+#qualifications_link {
+	background-color: #008CBA;
+	color: white;
+}
+#employment_history_link {
+	background-color: #f44336;
+	color: white;
+}
+#professional_associations_link {
+	background-color: #e7e7e7; 
+	color: black;
+}
+#referees_link {
+	background-color: #555555;
+	color: white;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+a.item {
+	height: 60px;
+	width: 140px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	text-align:center;
+	display: inline-block;
+	margin: 1px;
+	padding: 5px;
+	text-decoration:none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+body {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	padding: 5px;
+}
+
+header, nav, div, footer {
+	border-radius: 5px;
+}
+
+header {
+	z-index: 1;
+	width: 100%;
+	height: 84px; 
+	background-color: #668284;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#name {
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-left: 10px;
+	float:left;
+	font-size: 64px;
+	font-family: 'Bookman Old Style','Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px black;
+}
+
+#web_site{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+footer {
+	position: relative;
+	height: 60px; 
+	background-color: #668284;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+footer p {
+	position: relative;
+	padding-top: 15px;
+}
+
+table, tr {
+	width: 100%;
+}
+
+table th:first-child {
+	font-weight:normal;
+}
+
+table th:nth-child(2) {
+	width:93%;
+}
+
+th, td {
+	text-align:left;
+}
+
+table {
+	margin-bottom: 5px;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}

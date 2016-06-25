@@ -1,0 +1,14 @@
+<section id="qualifications" ng-controller="qualificationsController">
+    <h2>Qualifications</h2>
+
+	<table ng-repeat="qualification in qualifications"> 
+		<tr><th>{{ qualification.year }}</th><th>{{ qualification.title }}</th></tr>
+		<tr><td></td><td>{{ qualification.university }}</td></tr>
+		<tr><td></td><td>{{ qualification.result }}</td></tr>
+		<tr><td></td><td><img ng-src="{{ qualification.img }}"></td></tr>
+	</table>
+<!--
+		<p ng-click="plusOne($index)">+ {{ qualification.likes }} </p>
+-->
+
+</section>
