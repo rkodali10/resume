@@ -52,19 +52,19 @@ section {
 
 .container {
 	margin-bottom: 5px;
-	height: 2000px;
+	height: 2200px;
 }
 
 #myCanvas {
 	width:10px;
-	height:1850px;
+	height:2000px;
 }
 
 nav {
 	position: absolute;
 	float: left;
-	width: 12%;
-	height: 2000px;
+	width: 14%;
+	height: 2200px;
 	/* background-color: #B9D7D9; */
 	margin-top: 5px;
 	margin-bottom: 0px;
@@ -84,7 +84,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B9D7D9', end
 main {
 	position: relative;
 	float: right;
-	width: 87.5%;
+	width: 85.5%;
 	height: 100%;
 	background-color: #F4EBC3;
 	margin-top: 5px;
